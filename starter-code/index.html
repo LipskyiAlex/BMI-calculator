@@ -6,12 +6,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css">
  <link rel="stylesheet" href="./index.css">
   <title>Frontend Mentor | Body Mass Index Calculator</title>
 </head>
 
 <body>
-
   <div class="mainContainer">
     <h1 class="main-title">Body Mass
       Index Calculator</h1>
@@ -21,7 +21,7 @@
       your overall health and well-being.</p>
     <div class="form-container">
       <h2 class="input-title"> Enter your details below</h2>
-      <form name="input_data" autocomplete="off">
+      <form class="radioForm" name="input_data" autocomplete="off">
         <input type="radio" name="option" value="Metric" id="metric">
         <label for="metric">Metric</label>
         <input type="radio" name="option" value="Imperial" id="imperial">
@@ -107,7 +107,10 @@
       </ul>
     </section>
   </div>
+
+ 
   
+  <script src="./index.js" type="module"></script>
 </body>
 
 </html>
