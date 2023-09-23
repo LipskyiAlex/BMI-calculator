@@ -1,0 +1,98 @@
+/* Reset some common styles */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+dl,
+dd,
+figure,
+blockquote,
+fieldset,
+legend,
+button,
+input,
+textarea,
+pre,
+code,
+abbr,
+sup,
+sub {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Ensure fonts and line heights are consistent */
+body,
+button,
+input,
+select,
+textarea {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+}
+
+/* Remove list styles and indentation */
+ul,
+ol {
+    list-style: none;
+}
+
+
+/* Reset some form element styles */
+button,
+input,
+select,
+textarea {
+    outline: none;
+}
+
+/* Ensure images are responsive */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Reset anchor styles */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Remove underlines on links within buttons or other elements */
+button,
+[role="button"],
+a {
+    cursor: pointer;
+}
+
+/* Remove default button styles */
+button {
+    border: none;
+    background: none;
+    padding: 0;
+}
+
+/* Make text within buttons inherit text color */
+button,
+[role="button"] {
+    color: inherit;
+}
+
+/* Ensure text inputs have consistent box-sizing */
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="tel"],
+input[type="number"],
+input[type="password"],
+input[type="search"],
+textarea {
+    box-sizing: border-box;
+}
