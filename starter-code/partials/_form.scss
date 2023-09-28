@@ -1,0 +1,19 @@
+.form-container {
+
+    margin-left: 24px;
+    margin-right: 23px;
+    margin-bottom: 72px;
+    padding: 24px; 
+
+    border-radius: 16px;
+    background-color: $White;
+    box-shadow: 16px 32px 56px 0px rgba(143, 174, 207, 0.25);
+
+    .form-title {
+
+        font-weight: 600;
+        letter-spacing: -1.2px;
+        margin-bottom: 24px;
+        
+    }
+}

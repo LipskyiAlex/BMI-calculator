@@ -1,4 +1,3 @@
-/* Reset some common styles */
 body,
 h1,
 h2,
@@ -26,6 +25,8 @@ sub {
     margin: 0;
     padding: 0;
     border: 0;
+
+    text-align: center;
 }
 
 /* Ensure fonts and line heights are consistent */
@@ -34,8 +35,19 @@ button,
 input,
 select,
 textarea {
-    font-family: Arial, sans-serif;
+    font-family: Inter, sans-serif;
+    line-height: 1.1;
+    color:$Gunmetal;
+}
+
+p {
+
     line-height: 1.5;
+    text-align: center;
+
+    color:$Dark-electric-blue;
+
+
 }
 
 /* Remove list styles and indentation */

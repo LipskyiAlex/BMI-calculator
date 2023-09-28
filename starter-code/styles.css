@@ -1,0 +1,189 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+dl,
+dd,
+figure,
+blockquote,
+fieldset,
+legend,
+button,
+input,
+textarea,
+pre,
+code,
+abbr,
+sup,
+sub {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  text-align: center;
+}
+
+/* Ensure fonts and line heights are consistent */
+body,
+button,
+input,
+select,
+textarea {
+  font-family: Inter, sans-serif;
+  line-height: 1.1;
+  color: #253347;
+}
+
+p {
+  line-height: 1.5;
+  text-align: center;
+  color: #5E6E85;
+}
+
+/* Remove list styles and indentation */
+ul,
+ol {
+  list-style: none;
+}
+
+/* Reset some form element styles */
+button,
+input,
+select,
+textarea {
+  outline: none;
+}
+
+/* Ensure images are responsive */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Reset anchor styles */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Remove underlines on links within buttons or other elements */
+button,
+[role=button],
+a {
+  cursor: pointer;
+}
+
+/* Remove default button styles */
+button {
+  border: none;
+  background: none;
+  padding: 0;
+}
+
+/* Make text within buttons inherit text color */
+button,
+[role=button] {
+  color: inherit;
+}
+
+/* Ensure text inputs have consistent box-sizing */
+input[type=text],
+input[type=email],
+input[type=url],
+input[type=tel],
+input[type=number],
+input[type=password],
+input[type=search],
+textarea {
+  box-sizing: border-box;
+}
+
+.logo {
+  margin-bottom: 24px;
+}
+
+.main-title {
+  font-size: 48px;
+  margin-bottom: 24px;
+}
+
+.main-title-text {
+  margin-bottom: 48px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.form-container {
+  margin-left: 24px;
+  margin-right: 23px;
+  margin-bottom: 72px;
+  padding: 24px;
+  border-radius: 16px;
+  background-color: #fff;
+  box-shadow: 16px 32px 56px 0px rgba(143, 174, 207, 0.25);
+}
+.form-container .form-title {
+  font-weight: 600;
+  letter-spacing: -1.2px;
+  margin-bottom: 24px;
+}
+
+.container-info {
+  padding-left: 24px;
+  padding-right: 23px;
+  margin-bottom: 72px;
+}
+.container-info .title {
+  margin-bottom: 32px;
+  display: inline-block;
+  font-size: 32px;
+  text-align: left;
+  letter-spacing: -1.6px;
+}
+.container-info .text {
+  text-align: left;
+  font-weight: 400;
+}
+
+.list {
+  padding: 56px 29px 56px 19px;
+  text-align: left;
+}
+.list .item:not(:last-child) {
+  margin-bottom: 40px;
+}
+.list .image {
+  margin-bottom: 32px;
+}
+.list .title {
+  margin-bottom: 24px;
+  text-align: inherit;
+}
+.list .text {
+  text-align: inherit;
+}
+
+.section {
+  padding: 72px 29px 96px 19px;
+}
+.section .title {
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 32px;
+}
+.section .logo-wrap {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.main-image {
+  margin-bottom: 48px;
+}
+
+/*# sourceMappingURL=styles.css.map */
