@@ -1,0 +1,12 @@
+$Gunmetal: #253347;
+$White: #fff;
+$Blue: #345FF6;
+$Borders: #D8E2E7;
+$Dark-electric-blue:#5E6E85;
+
+
+@mixin flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
